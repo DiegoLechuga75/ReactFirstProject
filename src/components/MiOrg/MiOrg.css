@@ -1,0 +1,33 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #6278F7;
+    padding-bottom: 1.6rem;
+    border-bottom: 4px solid #6278F7;
+}
+
+.orgSection img{
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .title{
+        justify-self: flex-start;
+        font-size: 20px;
+    }
+
+    .orgSection img{
+        right: 5%;
+        width: 5rem;
+    }
+}
