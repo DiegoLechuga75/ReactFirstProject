@@ -1,15 +1,12 @@
-import { useState } from "react"
 import "./MiOrg.css"
 
-const MiOrg = () => {
+const MiOrg = (props) => {
 
-    const manejarClick = () => {
-        console.log(useState())
-    }
+    console.log(props)
 
     return <section className="orgSection">
         <h3 className="title">Mi organización</h3>
-        <img src="/img/add.png" alt="Add" onClick={manejarClick}/>
+        <img src="/img/add.png" alt="Add" onClick={props.cambiarMostrar}/>
     </section>
 }
 
