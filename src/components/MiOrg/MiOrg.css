@@ -16,18 +16,21 @@
 
 .orgSection img{
     position: absolute;
-    right: 20%;
+    right: 15%;
     cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
+    .orgSection{
+        justify-content: space-around;
+    }
+    
     .title{
-        justify-self: flex-start;
         font-size: 20px;
     }
 
     .orgSection img{
-        right: 5%;
-        width: 5rem;
+        right: 10%;
+        width: 4.5rem;
     }
 }

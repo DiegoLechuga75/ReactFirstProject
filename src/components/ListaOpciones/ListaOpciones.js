@@ -16,7 +16,6 @@ const ListaOpciones = (props) => {
     ]
 
     const manejarCambio = (e) => {
-        console.log("Cambio", e.target.value)
         props.actualizarEquipo(e.target.value)
     }
 
