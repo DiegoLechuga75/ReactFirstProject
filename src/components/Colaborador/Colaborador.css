@@ -1,0 +1,43 @@
+.colaborador{
+    width: 17.5rem;
+    margin-bottom: 24px;
+}
+
+.colaborador .encabezado{
+    background-color: #6278f7;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img{
+    width: 6.25rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: -3.125rem;
+}
+
+.colaborador .info {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.colaborador .info h4 {
+    color: #6278f7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .info h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 24px;
+    font-weight: 400;
+    margin: 0;
+}
