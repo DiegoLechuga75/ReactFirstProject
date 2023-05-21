@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Formulario from './components/Formulario/Formulario';
 import MiOrg from './components/MiOrg/MiOrg';
 import Equipo from './components/Equipo/Equipo';
+import Footer from './Footer/Footer';
 
 function App() {
 
@@ -83,6 +84,7 @@ function App() {
       {
         equipos.map((equipo) => <Equipo datos={equipo} key={equipo.titulo} colaboradores={colaboradores.filter(colaborador => colaborador.equipo === equipo.titulo)}/>)
       }
+      <Footer />
     </div>
   );
 }
